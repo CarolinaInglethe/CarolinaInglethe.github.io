@@ -80,7 +80,7 @@ h3{
  #DESCRICAO{
      padding-bottom: 20px;
      padding-right:  100px;
-     margin-bottom: 100px;
+     margin-bottom: 50px;
 
  }
  .descricaop2{
@@ -89,11 +89,12 @@ h3{
     
 #HABILIDADES{
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .skills{
     display: inline-block;
-    padding: 20px;
+    padding: 10px;
     margin: 10px;
 
 }
@@ -109,6 +110,26 @@ h5{
 #HABILIDADES ul li{
     margin: 2px;
 }
+
+#CONTATO{
+    text-align:center;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+
+.subcontato{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+}
+.subcontato .linkscontato:hover{
+    font-size: 50px;
+    margin: 40px;
+    
+}
+
+
 .botaolink{
     
     color: #4a4e69;
