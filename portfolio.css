@@ -1,60 +1,74 @@
 body{
-    background-color: #f2e9e4;
-    margin-inline: 20px;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
     
 }
 
 #TOPO {
     text-align: center;
+    padding-bottom:  410px;
+    background-image: url(/imgs/pexels-pixabay-326055.jpg);
+    background-repeat: no-repeat;
+    background-size: 1900px;
+
+}
+
+#INDICE {
+    margin-left: -500px;
+    position: fixed;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    background-image: url(/imgs/pexels-pixabay-326055.jpg);
+    
+
+    
+}
+#INDICE a{
+    list-style: none;
+    display: inline-block;
+    margin: 25px;
+    font-size: 18px;
+    color:#ced4da;
+    text-decoration: none;
+}
+
+
+#INDICE a:hover{
+    color: white;
 }
 
 h1{
-    
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #22223b ;
-    background-color: #9a8c98;
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin-top: 350px; 
+    color: white;
     text-align: center;
     font-size: 50px;
-    margin-top: 55px;
-    padding: 10px;
     border-radius: 5%;
+    margin-bottom: -5px;
 }
+ 
 
 h2{
-    color: #22223b;
-    font-family:Arial, Helvetica, sans-serif;
+    color: #ced4da;
+    ont-family: "Merriweather", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 25px;
+}
+
+#linktrybe{
+    color: #ced4da;
+    ont-family: "Merriweather", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 25px;
+    text-decoration: none;
+}
+#linktrybe:hover{
+    color: white;
 }
 
 h3{
     color: #4a4e69 ;
 
-}
-
-#INDICE{
-    margin: 70px;
-    display: inline-block;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    
-}
-
-#INDICE ul li {
-    font-size: 19px;
-    margin-bottom: 10px;
-    display: inline-block;
-    text-align: center;
-    margin: 10px;
-}
-
-#INDICE  ul li:hover{
-    background-color: #daced8;
-    color: rgb(0, 0, 0);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 100px;
-    border-radius: 20%;
-    padding: 10px;
 }
 
 #img{
@@ -66,9 +80,8 @@ h3{
 }
 #INFORMACOES {
     text-align: left;
-    padding-left: 10px;
-    padding-top: 5px;
-
+    padding: 150px;
+    background-color:#a2d2ff ;
  }
 
  #nome{
@@ -165,3 +178,7 @@ h5{
 #INDICACAO h3,p{
     text-align: left;
 }    
+
+div{
+    border: 5px solid black;
+}
