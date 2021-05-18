@@ -5,7 +5,7 @@ body{
     
 }
 
-#TOPO {
+header {
     text-align: center;
     padding-bottom:  150px;
     background-image: url(/imgs/pexels-pixabay-326055.jpg);
@@ -14,7 +14,8 @@ body{
 
 }
 
-#INDICE {
+header nav {
+    border: 1px solid #023e8a;
     margin-left: -450px;
     position: fixed;
     color: white;
@@ -25,7 +26,7 @@ body{
 
     
 }
-#INDICE a{
+header nav a{
     display: inline-block;
     margin: 25px;
     font-size: 18px;
@@ -34,7 +35,7 @@ body{
 }
 
 
-#INDICE a:hover{
+header nav a:hover{
     color: white;
 }
 
@@ -98,22 +99,21 @@ h2{
     display: inline-block;
     padding-bottom: 100px;
     font-size: 20px;
-    margin:100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    
 }
-
-h3{
+#DESCRICAO h2{
+    color: #023d8ab4;
     text-align: center;
-    color: #4a4e69 ;
-    font-size: 25px;
-
 }
-
 #img{ 
     border-radius: 30%;
     margin: 20px;
-    margin-left: 350px;
+    margin-left: 250px;
     border: 5px solid rgba(0, 0, 0, 0.678);
     box-shadow :10px 5px 5px rgba(0, 0, 0, 0.644);
+    
 }
 
 #INFORMACOES p{
@@ -125,6 +125,13 @@ h3{
     text-align: center;
     margin-bottom: 50px;
 }
+h3{
+    text-align: center;
+    color: #4a4e69 ;
+    font-size: 25px;
+
+}
+
 
 .skills{
     display: inline-block;
