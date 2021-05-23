@@ -99,21 +99,19 @@ h2{
  }
 
 #DESCRICAO{
+    background-color: #86bdf179;
     padding: 25px;
     display: inline-block;
     padding-bottom: 100px;
     font-size: 20px;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 200px;
     margin-right: 200px;
     border: 1px solid rgba(0, 0, 0, 0.582);
     border-radius: 20px;
     box-shadow :10px 5px 5px rgba(0, 0, 0, 0.644);
 }
-#DESCRICAO h2{
-    color: #023d8ab4;
-    text-align: center;
-}
+
 #img{ 
     border-radius: 30%;
     margin: 20px;
@@ -129,14 +127,14 @@ h2{
 
 
 #HABILIDADES{
+    margin-top: 50px;
+    margin-bottom: 200px;
+    margin-left: 100px;
+    padding: 100px;
     text-align: center;
     background-color:#a2d2ff ;
-    padding: 100px;
     display: inline-block;
-    padding-bottom: 200px;
     font-size: 20px;
-    margin-top: 50px;
-    
 }
 
 #HABILIDADES h2{
