@@ -5,39 +5,47 @@ body{
     
 }
 
-header {
-    text-align: center;
-    padding-bottom:  150px;
-    background-image: url(/imgs/pexels-pixabay-326055.jpg);
-    background-repeat: no-repeat;
-    background-size: 1900px;
-}
-
-header nav {
+nav {
+    margin-left: 150px;
+    border-radius: 10px;
     border: 1px solid #023e8a;
-    margin-left: -450px;
+    text-align: center;
     position: fixed;
+    top: 0;
     color: white;
     display: inline-block;
-    text-align: center;
-    background-image: url(/imgs/pexels-pixabay-326055.jpg);
+    background-color: #144fa87c; 
     box-shadow :10px 5px 5px rgba(0, 0, 0, 0.644);
 }
 
-header nav a{
+ nav a{
+    background-color: #144fa859 ;
     display: inline-block;
     margin: 25px;
     font-size: 18px;
-    color:#ced4da;
+    color:#cfd7ddf1;
     text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
 }
 
-header nav a:hover{
-    color: white;
+
+nav a:hover{
+    color: #ffffff;
+    background-color: #15508188;
+
+}
+
+header {
+    background-image: url(imgs/pexels-pixabay-326055.jpg);
+    text-align: center;
+    padding-bottom: 150px;
+    padding-top: 15px;
+    margin-bottom: 150px;
 }
 
 h1{
-    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: Merriweather Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
     margin-top: 350px; 
     color: white;
     text-align: center;
@@ -49,7 +57,7 @@ h1{
 
 h2{
     color: #ced4da;
-    font-family: "Merriweather", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: Merriweather, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
     font-size: 25px;
 }
 
@@ -69,7 +77,7 @@ h2{
     margin-top: 230px;
     padding: 10px ;
     border-radius: 40px;
-    background-color:#023e8a ;
+    background-color:#023d8acc ;
 }
 
 #linksaibamais{
@@ -80,7 +88,7 @@ h2{
 }
 
 #saibamais:hover{
-    background-color: #0077b6;
+    background-color: #518baac9;
 }
 
 #INFORMACOES {
@@ -211,6 +219,3 @@ h3{
     text-align: left;
 }   
 
-div {
-    border: 1px solid #023e8a;
-}
