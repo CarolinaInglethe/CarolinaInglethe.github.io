@@ -6,7 +6,7 @@ body{
 }
 
 nav {
-    margin-left: 150px;
+    margin-left: 200px;
     border-radius: 10px;
     border: 1px solid #023e8a;
     text-align: center;
@@ -78,6 +78,7 @@ h2{
     padding: 10px ;
     border-radius: 40px;
     background-color:#023d8acc ;
+    box-shadow :10px 5px 5px rgba(0, 0, 0, 0.644);
 }
 
 #linksaibamais{
@@ -127,24 +128,27 @@ h2{
 
 
 #HABILIDADES{
-    margin-top: 50px;
+    margin-top: 100px;
     margin-bottom: 100px;
-    margin-left: 100px;
+    margin-left: 150px;
     padding: 100px;
     text-align: center;
     background-color:#a2d2ff ;
     display: inline-block;
     font-size: 20px;
+    background-color: #bdbab49f;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
 }
 
 #HABILIDADES h2{
-    color: #023d8ab4;
+    color: #2c2422;
     text-align: center;
 }
 
 h3{
     text-align: center;
-    color: #4a4e69 ;
+    color: #d38c6a ;
     font-size: 25px;
 
 }
@@ -158,7 +162,7 @@ h3{
 
 #HABILIDADES ul{
     text-align: left;
-    font-size: 16px;
+    font-size: 17px;
 }
 #HABILIDADES ul li{
     margin: 2px;
