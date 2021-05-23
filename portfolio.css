@@ -164,14 +164,17 @@ h3{
     margin: 2px;
 }
 
-#CONTATO{
-    background-color:#ccbcc9 ;
+#CONTATO {
+    background-color: #023e8a ;
     text-align:center;
-    padding-left: 40px;
-    padding-bottom: 20px;
-    margin-top: 30px;
+    padding: 150px;
+    margin-top: 10px;
     margin-bottom: 100px;
-    border: 60%;
+    margin-left: 150px;
+    margin-right: 100px;
+    border-radius: 10px;
+    border-top-left-radius: 300px;
+    border-bottom-right-radius: 300px;
 }
 
 .subcontato{
@@ -185,8 +188,7 @@ h3{
 }
 
 .subcontato .linkscontato:hover{
-    font-size: 50px;
-    margin: 40px;
+    box-shadow :10px 5px 5px rgba(0, 0, 0, 0.644);
     
 }
  .links:hover{
