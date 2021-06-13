@@ -1,19 +1,18 @@
-body{
-    background-color: #a2d2ff;
+body {
+    background-color: #dbe6fd;
     padding: 0px;
-    margin: 0px;
-    
+    margin: 0px;  
 }
 
 nav {
     margin-left: 200px;
+    margin-right: 200px;
     border-radius: 10px;
     border: 1px solid #023e8a;
     text-align: center;
     position: fixed;
     top: 0;
     color: white;
-    display: inline-block;
     background-color: #144fa87c; 
     box-shadow :10px 5px 5px rgba(0, 0, 0, 0.644);
 }
@@ -21,7 +20,7 @@ nav {
  nav a{
     background-color: #144fa859 ;
     display: inline-block;
-    margin: 25px;
+    margin: 20px;
     font-size: 18px;
     color:#cfd7ddf1;
     text-decoration: none;
@@ -37,9 +36,12 @@ nav a:hover{
 }
 
 header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-image: url(imgs/pexels-pixabay-326055.jpg);
-    text-align: center;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
     padding-top: 15px;
     margin-bottom: 150px;
 }
@@ -92,49 +94,33 @@ h2{
     background-color: #518baac9;
 }
 
-#INFORMACOES {
-    text-align: left;
-    padding: 50px;
-    background-color:#a2d2ff ;
-    margin-top: 50px;
- }
-
 #DESCRICAO{
-    background-color: #86bdf179;
-    padding: 25px;
-    display: inline-block;
-    padding-bottom: 100px;
+    background-color: #023e8a;
+    color: #dbe6fd;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding: 150px;
     font-size: 20px;
-    margin-top: 50px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin: 150px;
     border: 1px solid rgba(0, 0, 0, 0.582);
     border-radius: 20px;
     box-shadow :10px 5px 5px rgba(0, 0, 0, 0.644);
 }
 
 #img{ 
-    border-radius: 30%;
+    border-radius: 10%;
     margin: 20px;
-    margin-left: 250px;
-    border: 5px solid rgba(0, 0, 0, 0.678);
-    box-shadow :10px 5px 5px rgba(0, 0, 0, 0.644);
-    
+    box-shadow :10px 5px 5px rgba(0, 0, 0, 0.644); 
 }
-
-#INFORMACOES p{
-    text-align: center;
-}
-
 
 #HABILIDADES{
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-left: 150px;
-    padding: 100px;
-    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin: 100px;
+    padding: 50px;
     background-color:#a2d2ff ;
-    display: inline-block;
     font-size: 20px;
     background-color: #bdbab49f;
     border-top-right-radius: 100px;
@@ -170,12 +156,10 @@ h3{
 
 #CONTATO {
     background-color: #023e8a ;
-    text-align:center;
+    display: flex;
+    justify-content: space-around;
     padding: 150px;
-    margin-top: 10px;
-    margin-bottom: 100px;
-    margin-left: 150px;
-    margin-right: 100px;
+    margin: 150px;
     border-radius: 10px;
     border-top-left-radius: 300px;
     border-bottom-right-radius: 300px;
@@ -189,11 +173,11 @@ h3{
 
 .linkscontato{
     margin: 30px;
+    text-decoration: none;
 }
 
-.subcontato .linkscontato:hover{
-    box-shadow :10px 5px 5px rgba(0, 0, 0, 0.644);
-    
+.linkscontato:hover{
+    font-size: 50px;
 }
 
 .links {
@@ -210,15 +194,12 @@ h3{
 }
 
 #INDICACAO{
-    margin-right: 20px;
     text-align: left;
     padding: 50px;
     display: inline-block;
     font-size: 3m;
     background-color: #bdbab49f;
-    margin-left: 100px;
-    margin-bottom: 200px;
-    margin-top: 200px;
+    margin: 100px;
 }
 
 #INDICACAO h2{
