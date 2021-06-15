@@ -6,7 +6,7 @@ body {
 }
 
 nav {
-    background-color: #092b5ff1;
+    background-color: #092b5ff8;
     position: fixed;
     width: 100%;
     display: flex;
@@ -20,6 +20,7 @@ nav {
     flex-shrink: 3;
     margin: 10px;
     text-decoration: none;
+    font-size: 20px;
     padding: 10px;
     border-radius: 10px;
 }
@@ -44,6 +45,7 @@ header {
 h1 {
     flex-shrink: 5;
     margin-top: 350px;
+    font-size: 50px;
 } 
 
 h2 {
