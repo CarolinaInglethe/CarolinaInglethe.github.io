@@ -122,7 +122,7 @@ img {
 
 #CONTATO {
     margin-top: 200px;
-    border: 1px solid black ;
+    border: 1px solid rgba(0, 0, 0, 0.171) ;
 }
 
 .sub-contato {
@@ -141,5 +141,7 @@ img {
 
 footer{
     text-align: center;
+    font-size: small;
+    border: 1px solid rgba(0, 0, 0, 0.315);
 }
 
