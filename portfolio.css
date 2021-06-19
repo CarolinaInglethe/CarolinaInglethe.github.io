@@ -19,11 +19,17 @@ nav {
     color:#f8f8f8f1;
     display: flex;
     flex-shrink: 3;
+    align-items: center;
     margin: 10px;
     text-decoration: none;
     font-size: small;
     padding: 10px;
     border-radius: 10px;
+}
+
+nav p {
+    color: aliceblue;
+    font-size: 25px;
 }
 
 header {
@@ -150,13 +156,14 @@ footer{
 }
 
 @media  screen and (min-width: 700px) and (max-width: 1000px) {
-/*TELA GRANDE apartir de 800px*/
+/*TELA MEDIA apartir de 800px*/
 nav {
     background-color: #092b5ff8;
     position: fixed;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     box-shadow :10px 5px 5px rgba(0, 0, 0, 0.644);
 }
 
@@ -166,11 +173,14 @@ nav {
     flex-shrink: 3;
     margin: 10px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 100%;
     padding: 10px;
     border-radius: 10px;
 }
-
+nav p {
+    color: aliceblue;
+    font-size: 50px;
+}
 nav a:hover {
     color: #ffffff;
     background-color: #15508188;
@@ -306,11 +316,17 @@ footer{
         color:#cfd7ddf1;
         display: flex;
         flex-shrink: 3;
+        align-items: center;
         margin: 10px;
         text-decoration: none;
         font-size: large;
-        padding: 20px;
+        padding: 10px;
         border-radius: 10px;
+    }
+
+    nav p {
+        color: aliceblue;
+        font-size: 30px;
     }
     
     nav a:hover {
