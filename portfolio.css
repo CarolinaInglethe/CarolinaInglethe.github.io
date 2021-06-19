@@ -308,7 +308,7 @@ footer{
         flex-shrink: 3;
         margin: 10px;
         text-decoration: none;
-        font-size: x-large;
+        font-size: large;
         padding: 20px;
         border-radius: 10px;
     }
@@ -373,14 +373,14 @@ footer{
     #SOBRE-MIM {
         display: flex;
         justify-content: space-around;
-        font-size: x-large;
+        font-size: large;
     }
     
     .container-me {
         background-color: #293B5F;
         color: #DBE6FD;
         align-self: center;
-        padding: 100px 100px;
+        padding: 100px 20px;
         width: 30%;
     }
     
@@ -397,7 +397,6 @@ footer{
         display: flex;
         flex-flow: column nowrap;
         justify-content: center;
-        margin: 20px;
         border-radius: 20%;
         padding: 20px 50px;
     }
@@ -414,6 +413,7 @@ footer{
         justify-content: space-around;
         font-size: x-large;
         color: rgba(0, 0, 0, 0.589);
+        margin: 200px 10px;
     }
     
     .sub-contato {
