@@ -5,6 +5,152 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+@media screen and (max-width: 700px) {
+/*Tela mobile */
+nav {
+    background-color: #293B5F;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow :10px 5px 5px rgba(0, 0, 0, 0.644);
+}
+
+ nav a {
+    color:#f8f8f8f1;
+    display: flex;
+    flex-shrink: 3;
+    margin: 10px;
+    text-decoration: none;
+    font-size: small;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(imgs/pexels-pixabay-326055.jpg);
+    background-size: cover;
+    right: 100vh;
+    color: aliceblue;
+    font-size: small;
+    padding: 100px 1px;
+    background-color: black;
+    opacity: 0.9;
+}
+
+header h1 {
+    font-size:x-large;
+    background-color: rgba(0, 0, 0, 0.233);
+    border-radius: 2px;
+} 
+
+header h2 {
+    background-color: rgba(0, 0, 0, 0.452);
+    width: 95%;
+    margin: 10px 20px;
+    font-size: small;
+}
+
+
+#linktrybe {
+    color: #ced4daad;
+    text-decoration: none;
+}
+
+#linktrybe:hover{
+    color: white;
+}
+
+#linksaibamais{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  margin-left: 130px;
+}
+
+#SOBREMIM {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: xx-small;
+}
+
+.container-me {
+    background-color: #293B5F;
+    color: #DBE6FD;
+    align-self: center;
+    padding: 20px 50px;
+    font-size: small;
+}
+
+.container-me img p {
+    display: flex;
+    align-self: center;
+}
+
+img {
+    border-radius: 10%;
+    width: 90px;
+}
+
+.container-habilidades {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    border-radius: 20%;
+    padding: 20px 50px;
+    font-size: small;
+}
+
+.skills {
+    display: flex;
+    flex-flow: column nowrap;
+    align-self: flex-start;
+}
+
+#CONTATO {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #293B5F;
+    font-size: xx-small;
+    color: cornsilk;
+}
+
+#CONTATO h2 {
+    display: none;
+}
+
+.sub-contato {
+    margin: 5px;
+}
+
+.sub-contato a {
+    opacity: 0.8;
+    margin: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.sub-contato a:hover {
+    opacity: 1;;
+}
+
+footer{
+    display: none;
+    text-align: center;
+    font-size: xx-small;
+    border: 1px solid rgba(0, 0, 0, 0.315);
+}
+    
+}
+
+@media  screen and (min-width: 700px) and (max-width: 1000px) {
+/*TELA GRANDE apartir de 800px*/
 nav {
     background-color: #092b5ff8;
     position: fixed;
@@ -40,15 +186,16 @@ header {
     right: 100vh;
     color: aliceblue;
     width: auto;
+    font-size: large;
 }
 
-h1 {
+header h1 {
     flex-shrink: 5;
     margin-top: 350px;
     font-size: 50px;
 } 
 
-h2 {
+header h2 {
     display: flex;
     margin: 10px 20px;
 }
@@ -69,11 +216,11 @@ h2 {
   border: none;
   text-decoration: none;
   cursor: pointer;
-  margin: 190px 10px;
+  margin: 230px 10px;
   padding: 15px 30px;
   color: white;
   background-color: #092b5fdf;
-  font-size: 19px;
+  font-size: x-large;
   border-radius: 3px;
 }
 
@@ -81,58 +228,59 @@ h2 {
   background-color: #1c54a8d8;
 }
 
-.container {
+#SOBRE-MIM {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 100px 10px;
+    font-size: large;
 }
 
 .container-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #293B5F;
     color: #DBE6FD;
     align-self: center;
-    padding: 100px 100px;
-    width: 300px;
+    margin: 50px 1px;
+    padding: 20px 20px;
+    border-radius: 10px;
+    width: 70%;
 }
 
-.container-me img p {
-    display: flex;
-    align-self: center;
-}
 
 img {
     border-radius: 50%;
+    align-self: center;
+    width: 130px;
 }
 
 .container-habilidades {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-    margin: 20px;
+    font-size: large;
     border-radius: 20%;
-    padding: 50px 30px;
-}
-
-.skills {
-    display: flex;
-    flex-flow: column nowrap;
-    align-self: flex-start;
+    margin: 10px;
 }
 
 #CONTATO {
-    margin-top: 200px;
-    border: 1px solid rgba(0, 0, 0, 0.171) ;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding: 10px 0px;
+    background-color: #293B5F;
+    color: white;
 }
 
-.sub-contato {
-    margin: 20px;
+#CONTATO h2 {
+    display: none;
 }
 
-.sub-contato a {
+#CONTATO a {
     opacity: 0.8;
-    margin:20px ;
+    margin: 10px 10px;
+    font-size: xxx-large;
     text-decoration: none;
+    color: white;
 }
 
 .sub-contato a:hover {
@@ -140,8 +288,152 @@ img {
 }
 
 footer{
-    text-align: center;
-    font-size: small;
-    border: 1px solid rgba(0, 0, 0, 0.315);
+   display: none;
+}
 }
 
+@media screen and (min-width: 1000px) {
+    nav {
+        background-color: #092b5ff8;
+        position: fixed;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        box-shadow :10px 5px 5px rgba(0, 0, 0, 0.644);
+    }
+    
+     nav a {
+        color:#cfd7ddf1;
+        display: flex;
+        flex-shrink: 3;
+        margin: 10px;
+        text-decoration: none;
+        font-size: x-large;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    
+    nav a:hover {
+        color: #ffffff;
+        background-color: #15508188;
+    }
+    
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url(imgs/pexels-pixabay-326055.jpg);
+        background-size: auto;
+        right: 100vh;
+        color: aliceblue;
+        width: auto;
+        font-size: x-large;
+    }
+    
+    header h1 {
+        flex-shrink: 5;
+        margin-top: 350px;
+        font-size: 50px;
+    } 
+    
+    header h2 {
+        display: flex;
+        margin: 10px 20px;
+    }
+    
+    
+    #linktrybe {
+        display: flex;
+        color: #ced4daad;
+        text-decoration: none;
+    }
+    
+    #linktrybe:hover{
+        color: white;
+    }
+    
+    #linksaibamais{
+      display: flex;
+      border: none;
+      text-decoration: none;
+      cursor: pointer;
+      margin: 190px 10px;
+      padding: 15px 30px;
+      color: white;
+      background-color: #092b5fdf;
+      font-size: 25px;
+      border-radius: 3px;
+    }
+    
+    #linksaibamais:hover{
+      background-color: #1c54a8d8;
+    }
+
+    #SOBRE-MIM {
+        display: flex;
+        justify-content: space-around;
+        font-size: x-large;
+    }
+    
+    .container-me {
+        background-color: #293B5F;
+        color: #DBE6FD;
+        align-self: center;
+        padding: 100px 100px;
+        width: 30%;
+    }
+    
+    .container-me img p {
+        display: flex;
+        align-self: center;
+    }
+    
+    img {
+        border-radius: 50%;
+    }
+    
+    .container-habilidades {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        margin: 20px;
+        border-radius: 20%;
+        padding: 20px 50px;
+    }
+    
+    .skills {
+        display: flex;
+        flex-flow: column nowrap;
+        align-self: flex-start;
+    }
+    
+    #CONTATO {
+        margin: 150px 1px;
+        display: flex;
+        justify-content: space-around;
+        font-size: x-large;
+        color: rgba(0, 0, 0, 0.589);
+    }
+    
+    .sub-contato {
+        margin: 20px;
+    }
+    
+    .sub-contato a {
+        opacity: 0.8;
+        margin: 20px ;
+        text-decoration: none;
+        font-size: 70px;
+        color: #1b1a1a;
+    }
+    
+    .sub-contato a:hover {
+        opacity: 1;;
+    }
+    
+    footer{
+        text-align: center;
+        font-size: large;
+    }
+}
