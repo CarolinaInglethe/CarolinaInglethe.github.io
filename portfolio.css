@@ -90,7 +90,7 @@ header h2 {
     background-color: #293B5F;
     color: #DBE6FD;
     align-self: center;
-    padding: 20px 50px;
+    padding: 25px 50px;
     font-size: small;
 }
 
@@ -102,6 +102,7 @@ img {
     border-radius: 50%;
     align-self: center;
     width: 90px;
+    margin: 15px;
 }
 
 .container-habilidades {
