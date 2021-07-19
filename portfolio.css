@@ -42,7 +42,7 @@ header {
     right: 100vh;
     color: aliceblue;
     font-size: small;
-    padding: 100px 1px;
+    padding: 170px 1px;
     background-color: black;
     opacity: 0.9;
 }
@@ -71,9 +71,7 @@ header h2 {
 }
 
 #linksaibamais{
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-  margin-left: 130px;
+  display: none;
 }
 
 #SOBREMIM {
