@@ -85,6 +85,8 @@ header h2 {
 }
 
 .container-me {
+    display: flex;
+    flex-direction: column;
     background-color: #293B5F;
     color: #DBE6FD;
     align-self: center;
@@ -92,13 +94,13 @@ header h2 {
     font-size: small;
 }
 
-.container-me img p {
-    display: flex;
+.container-me p {
     align-self: center;
 }
 
 img {
-    border-radius: 10%;
+    border-radius: 50%;
+    align-self: center;
     width: 90px;
 }
 
@@ -173,13 +175,13 @@ nav {
     flex-shrink: 3;
     margin: 10px;
     text-decoration: none;
-    font-size: 100%;
+    font-size: 15px;
     padding: 10px;
     border-radius: 10px;
 }
 nav p {
     color: aliceblue;
-    font-size: 50px;
+    font-size: 25px;
 }
 nav a:hover {
     color: #ffffff;
@@ -285,16 +287,17 @@ img {
     display: none;
 }
 
-#CONTATO a {
-    opacity: 0.8;
-    margin: 10px 10px;
-    font-size: xxx-large;
+.sub-contato a {
+    opacity: 0.7;
+    margin: 10px 15px;
+    font-size: xx-large;
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .sub-contato a:hover {
-    opacity: 1;;
+    opacity: 1;
+    color: aliceblue;
 }
 
 footer{
@@ -393,6 +396,8 @@ footer{
     }
     
     .container-me {
+        display: flex;
+        flex-direction: column;
         background-color: #293B5F;
         color: #DBE6FD;
         align-self: center;
@@ -400,12 +405,12 @@ footer{
         width: 30%;
     }
     
-    .container-me img p {
-        display: flex;
+    .container-me p {
         align-self: center;
     }
     
     img {
+        align-self: center;
         border-radius: 50%;
     }
     
@@ -445,7 +450,7 @@ footer{
     }
     
     .sub-contato a:hover {
-        opacity: 1;;
+        opacity: 1;
     }
     
     footer{
