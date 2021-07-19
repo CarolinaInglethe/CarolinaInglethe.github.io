@@ -20,16 +20,16 @@ nav {
     display: flex;
     flex-shrink: 3;
     align-items: center;
-    margin: 10px;
+    margin: 1px;
     text-decoration: none;
     font-size: small;
-    padding: 10px;
+    padding: 1px;
     border-radius: 10px;
 }
 
 nav p {
     color: aliceblue;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 header {
@@ -42,7 +42,7 @@ header {
     right: 100vh;
     color: aliceblue;
     font-size: small;
-    padding: 170px 1px;
+    padding: 180px 1px;
     background-color: black;
     opacity: 0.9;
 }
