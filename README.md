@@ -8,7 +8,7 @@ Nele consta minhas informações pessoais , informações sobre mim , meu contat
 Também está minhas informações sobre habilidades desenvolvidas e Projetos .
 
 ### Acesse por este link :
-<a href="https://carolinainglethe.github.io/" alt="meu portfolio">Abra meu Portfolio</a>
+<a href="https://carolinainglethe.github.io/" alt="meu portfolio" target="_blank">Abra meu Portfolio</a>
 
 ### Status:
 - Working in progress
